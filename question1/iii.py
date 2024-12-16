@@ -6,7 +6,7 @@ from airflow.models import Variable
 from datetime import datetime
 
 
-WEBHOOK_URL = "https://chat.googleapis.com/v1/spaces/AAAAj3kq2_c/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Ri42tF8B1Lrk0yOvb9x1vDBXwClWkZnupPFKGnEhR1Y"
+WEBHOOK_URL = "https://chat.googleapis.com/v1/spaces/AAAAj3kq2_c/messages?key=[placeholder]&token=[placeholder]"
 
 def send_to_google_chat():
 
